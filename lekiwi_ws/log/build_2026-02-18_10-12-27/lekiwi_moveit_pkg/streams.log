@@ -1,0 +1,41 @@
+[0.010s] Invoking command in '/home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg -- -j20 -l20
+[0.054s] Invoked command in '/home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg -- -j20 -l20
+[0.065s] Invoking command in '/home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg
+[0.073s] -- Install configuration: ""
+[0.074s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/ament_index/resource_index/package_run_dependencies/lekiwi_moveit_pkg
+[0.074s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/ament_index/resource_index/parent_prefix_path/lekiwi_moveit_pkg
+[0.074s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/environment/ament_prefix_path.sh
+[0.074s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/environment/ament_prefix_path.dsv
+[0.074s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/environment/path.sh
+[0.074s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/environment/path.dsv
+[0.074s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/local_setup.bash
+[0.074s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/local_setup.sh
+[0.074s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/local_setup.zsh
+[0.075s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/local_setup.dsv
+[0.075s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.dsv
+[0.075s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/ament_index/resource_index/packages/lekiwi_moveit_pkg
+[0.075s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/cmake/lekiwi_moveit_pkgConfig.cmake
+[0.075s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/cmake/lekiwi_moveit_pkgConfig-version.cmake
+[0.075s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.xml
+[0.075s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/launch
+[0.075s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/launch/moveit_rviz.launch.py
+[0.076s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/launch/move_group.launch.py
+[0.076s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/launch/warehouse_db.launch.py
+[0.076s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/launch/demo.launch.py
+[0.076s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/launch/setup_assistant.launch.py
+[0.076s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/launch/spawn_controllers.launch.py
+[0.076s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/launch/rsp.launch.py
+[0.077s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/launch/static_virtual_joint_tfs.launch.py
+[0.078s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config
+[0.078s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config/pilz_cartesian_limits.yaml
+[0.078s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config/ros2_controllers.yaml
+[0.078s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config/moveit.rviz
+[0.078s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config/LeKiwi.ros2_control.xacro
+[0.078s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config/initial_positions.yaml
+[0.078s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config/joint_limits.yaml
+[0.079s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config/LeKiwi.urdf.xacro
+[0.079s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config/moveit_controllers.yaml
+[0.079s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config/kinematics.yaml
+[0.079s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/config/LeKiwi.srdf
+[0.079s] -- Up-to-date: /home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/.setup_assistant
+[0.079s] Invoked command in '/home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg

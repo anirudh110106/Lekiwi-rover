@@ -1,0 +1,21 @@
+[0.684s] Invoking command in '/home/anirudh/lekiwi_ws/src/lekiwi_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anirudh/lekiwi_ws/build/lekiwi_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/lekiwi_ws/install/lekiwi_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_bringup build --build-base /home/anirudh/lekiwi_ws/build/lekiwi_bringup/build install --record /home/anirudh/lekiwi_ws/build/lekiwi_bringup/install.log --single-version-externally-managed install_data
+[0.867s] running egg_info
+[0.879s] writing ../../build/lekiwi_bringup/lekiwi_bringup.egg-info/PKG-INFO
+[0.879s] writing dependency_links to ../../build/lekiwi_bringup/lekiwi_bringup.egg-info/dependency_links.txt
+[0.879s] writing requirements to ../../build/lekiwi_bringup/lekiwi_bringup.egg-info/requires.txt
+[0.879s] writing top-level names to ../../build/lekiwi_bringup/lekiwi_bringup.egg-info/top_level.txt
+[0.903s] reading manifest file '../../build/lekiwi_bringup/lekiwi_bringup.egg-info/SOURCES.txt'
+[0.903s] adding license file 'LICENSE'
+[0.904s] writing manifest file '../../build/lekiwi_bringup/lekiwi_bringup.egg-info/SOURCES.txt'
+[0.904s] running build
+[0.904s] running build_py
+[0.904s] running install
+[0.908s] running install_lib
+[0.921s] running install_data
+[0.921s] copying launch/sim.launch.py -> /home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/launch
+[0.921s] running install_egg_info
+[0.934s] removing '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/lib/python3.12/site-packages/lekiwi_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[0.934s] Copying ../../build/lekiwi_bringup/lekiwi_bringup.egg-info to /home/anirudh/lekiwi_ws/install/lekiwi_bringup/lib/python3.12/site-packages/lekiwi_bringup-0.0.0-py3.12.egg-info
+[0.935s] running install_scripts
+[1.018s] writing list of installed files to '/home/anirudh/lekiwi_ws/build/lekiwi_bringup/install.log'
+[1.038s] Invoked command in '/home/anirudh/lekiwi_ws/src/lekiwi_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anirudh/lekiwi_ws/build/lekiwi_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/lekiwi_ws/install/lekiwi_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_bringup build --build-base /home/anirudh/lekiwi_ws/build/lekiwi_bringup/build install --record /home/anirudh/lekiwi_ws/build/lekiwi_bringup/install.log --single-version-externally-managed install_data

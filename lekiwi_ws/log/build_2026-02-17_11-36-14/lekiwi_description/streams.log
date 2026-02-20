@@ -1,0 +1,82 @@
+[1.044s] Invoking command in '/home/anirudh/lekiwi_ws/src/lekiwi_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anirudh/lekiwi_ws/build/lekiwi_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_description build --build-base /home/anirudh/lekiwi_ws/build/lekiwi_description/build install --record /home/anirudh/lekiwi_ws/build/lekiwi_description/install.log --single-version-externally-managed install_data
+[1.376s] running egg_info
+[1.376s] creating ../../build/lekiwi_description/lekiwi_description.egg-info
+[1.398s] writing ../../build/lekiwi_description/lekiwi_description.egg-info/PKG-INFO
+[1.399s] writing dependency_links to ../../build/lekiwi_description/lekiwi_description.egg-info/dependency_links.txt
+[1.399s] writing requirements to ../../build/lekiwi_description/lekiwi_description.egg-info/requires.txt
+[1.399s] writing top-level names to ../../build/lekiwi_description/lekiwi_description.egg-info/top_level.txt
+[1.399s] writing manifest file '../../build/lekiwi_description/lekiwi_description.egg-info/SOURCES.txt'
+[1.447s] reading manifest file '../../build/lekiwi_description/lekiwi_description.egg-info/SOURCES.txt'
+[1.448s] writing manifest file '../../build/lekiwi_description/lekiwi_description.egg-info/SOURCES.txt'
+[1.448s] running build
+[1.448s] running build_py
+[1.448s] creating /home/anirudh/lekiwi_ws/build/lekiwi_description/build
+[1.448s] creating /home/anirudh/lekiwi_ws/build/lekiwi_description/build/lib
+[1.448s] creating /home/anirudh/lekiwi_ws/build/lekiwi_description/build/lib/lekiwi_description
+[1.448s] copying lekiwi_description/__init__.py -> /home/anirudh/lekiwi_ws/build/lekiwi_description/build/lib/lekiwi_description
+[1.449s] running install
+[1.457s] running install_lib
+[1.479s] creating /home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages/lekiwi_description
+[1.479s] copying /home/anirudh/lekiwi_ws/build/lekiwi_description/build/lib/lekiwi_description/__init__.py -> /home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages/lekiwi_description
+[1.480s] byte-compiling /home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages/lekiwi_description/__init__.py to __init__.cpython-312.pyc
+[1.480s] running install_data
+[1.481s] creating /home/anirudh/lekiwi_ws/install/lekiwi_description/share/ament_index
+[1.481s] creating /home/anirudh/lekiwi_ws/install/lekiwi_description/share/ament_index/resource_index
+[1.481s] creating /home/anirudh/lekiwi_ws/install/lekiwi_description/share/ament_index/resource_index/packages
+[1.481s] copying resource/lekiwi_description -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/ament_index/resource_index/packages
+[1.481s] copying package.xml -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description
+[1.481s] creating /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF
+[1.481s] copying URDF/lekiwi.urdf.xacro -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF
+[1.481s] creating /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.481s] copying URDF/meshes/omni_wheel_mount-v5-1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.481s] copying URDF/meshes/base_plate_layer1-v5.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.481s] copying URDF/meshes/ST3215_Servo_Motor-v1-1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.482s] copying URDF/meshes/Top-V2-v2.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.482s] copying URDF/meshes/Wrist-Camera-Mount-v11.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.483s] copying URDF/meshes/Battery---Battery-5.2-Ah-DC5521-Plug-v2.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.483s] copying URDF/meshes/servo_controller_mount-v3.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.483s] copying URDF/meshes/Wrist_Roll_08c-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.483s] copying URDF/meshes/94868A713_NO-THREADS_Female-Threaded-Hex-Standoff-2.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.483s] copying URDF/meshes/base_plate_layer2-v3.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.484s] copying URDF/meshes/4-Omni-Directional-Wheel_Single_Body-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.493s] copying URDF/meshes/SO_ARM100_08k_116_Square-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.493s] copying URDF/meshes/STS3215_03a-v1-2.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.494s] copying URDF/meshes/94868A713_NO-THREADS_Female-Threaded-Hex-Standoff.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.494s] copying URDF/meshes/ST3215_Servo_Motor-v1-2.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.494s] copying URDF/meshes/94868A713_NO-THREADS_Female-Threaded-Hex-Standoff-5.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.495s] copying URDF/meshes/Base_08q-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.495s] copying URDF/meshes/WaveShare_Mounting_Plate_01d-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.495s] copying URDF/meshes/Moving_Jaw_08d-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.495s] copying URDF/meshes/Wrist_Roll_Pitch_08i-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.496s] copying URDF/meshes/lipo_battery_mount-v3.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.496s] copying URDF/meshes/SO_ARM100_08k_Mirror-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.496s] copying URDF/meshes/Bottom-V2-v3.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.497s] copying URDF/meshes/Passive_Horn_01-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.497s] copying URDF/meshes/4-Omni-Directional-Wheel_Single_Body-v1-1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.505s] copying URDF/meshes/Camera-Mount-v8.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.505s] copying URDF/meshes/drive_motor_mount-v11.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.506s] copying URDF/meshes/ST3215_Servo_Motor-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.506s] copying URDF/meshes/Camera-Model-v3-1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.507s] copying URDF/meshes/94868A713_NO-THREADS_Female-Threaded-Hex-Standoff-1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.507s] copying URDF/meshes/STS3215_03a_Wrist_Roll-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.507s] copying URDF/meshes/94868A713_NO-THREADS_Female-Threaded-Hex-Standoff-3.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.507s] copying URDF/meshes/94868A713_NO-THREADS_Female-Threaded-Hex-Standoff-4.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.507s] copying URDF/meshes/STS3215_03a-v1-4.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.508s] copying URDF/meshes/STS3215_03a-v1-1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.508s] copying URDF/meshes/omni_wheel_mount-v5.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.508s] copying URDF/meshes/drive_motor_mount-v11-2.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.508s] copying URDF/meshes/omni_wheel_mount-v5-2.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.508s] copying URDF/meshes/STS3215_03a-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.508s] copying URDF/meshes/Camera-Model-v3.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.509s] copying URDF/meshes/Rotation_Pitch_08i-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.509s] copying URDF/meshes/STS3215_03a-v1-3.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.510s] copying URDF/meshes/4-Omni-Directional-Wheel_Single_Body-v1-2.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.519s] copying URDF/meshes/drive_motor_mount-v11-1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.519s] copying URDF/meshes/SO_ARM100_08k_Asym_Mirror_Clip-v1.stl -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF/meshes
+[1.519s] creating /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/ros2_control
+[1.520s] copying ros2_control/lekiwi_ros2_control.xacro -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/ros2_control
+[1.520s] running install_egg_info
+[1.546s] Copying ../../build/lekiwi_description/lekiwi_description.egg-info to /home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages/lekiwi_description-0.0.0-py3.12.egg-info
+[1.546s] running install_scripts
+[1.708s] writing list of installed files to '/home/anirudh/lekiwi_ws/build/lekiwi_description/install.log'
+[1.748s] Invoked command in '/home/anirudh/lekiwi_ws/src/lekiwi_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anirudh/lekiwi_ws/build/lekiwi_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_description build --build-base /home/anirudh/lekiwi_ws/build/lekiwi_description/build install --record /home/anirudh/lekiwi_ws/build/lekiwi_description/install.log --single-version-externally-managed install_data

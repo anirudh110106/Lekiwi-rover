@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/lekiwi_description/lekiwi_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/lekiwi_description/lekiwi_description.egg-info/dependency_links.txt
+writing requirements to ../../build/lekiwi_description/lekiwi_description.egg-info/requires.txt
+writing top-level names to ../../build/lekiwi_description/lekiwi_description.egg-info/top_level.txt
+reading manifest file '../../build/lekiwi_description/lekiwi_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/lekiwi_description/lekiwi_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying URDF/lekiwi.urdf.xacro -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF
+copying ros2_control/lekiwi_ros2_control.xacro -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/ros2_control
+running install_egg_info
+removing '/home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages/lekiwi_description-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/lekiwi_description/lekiwi_description.egg-info to /home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages/lekiwi_description-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/anirudh/lekiwi_ws/build/lekiwi_description/install.log'

@@ -1,0 +1,241 @@
+[0.126s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.126s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x793e8a6a61e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x793e8a7c28a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x793e8a7c28a0>>, mixin_verb=('build',))
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.171s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anirudh/lekiwi_ws'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_bringup) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_bringup) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_bringup) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_bringup) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_bringup) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_bringup) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_bringup) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_bringup) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lekiwi_bringup' with type 'ros.ament_python' and name 'lekiwi_bringup'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_description) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_description) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_description) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_description) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_description) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_description) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_description) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_description) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_description) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lekiwi_description' with type 'ros.ament_python' and name 'lekiwi_description'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_moveit_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_moveit_pkg) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_moveit_pkg) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_moveit_pkg) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_moveit_pkg) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_moveit_pkg) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_moveit_pkg) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_moveit_pkg) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/lekiwi_moveit_pkg) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lekiwi_moveit_pkg' with type 'ros.ament_cmake' and name 'lekiwi_moveit_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/anirudh/lekiwi_ws/install
+[0.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/anirudh/omx_ws/install
+[0.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/anirudh/robotics/cpp/install
+[0.238s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 424 installed packages in /opt/ros/jazzy
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_bringup' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_bringup' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'lekiwi_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anirudh/lekiwi_ws/build/lekiwi_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anirudh/lekiwi_ws/install/lekiwi_bringup', 'merge_install': False, 'path': '/home/anirudh/lekiwi_ws/src/lekiwi_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_description' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_description' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'lekiwi_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anirudh/lekiwi_ws/build/lekiwi_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anirudh/lekiwi_ws/install/lekiwi_description', 'merge_install': False, 'path': '/home/anirudh/lekiwi_ws/src/lekiwi_description', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_moveit_pkg' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_moveit_pkg' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_moveit_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_moveit_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_moveit_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_moveit_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_moveit_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_moveit_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lekiwi_moveit_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'lekiwi_moveit_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg', 'merge_install': False, 'path': '/home/anirudh/lekiwi_ws/src/lekiwi_moveit_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.299s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.300s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anirudh/lekiwi_ws/src/lekiwi_description' with build type 'ament_python'
+[0.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('lekiwi_description', 'ament_prefix_path')
+[0.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/hook/ament_prefix_path.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/hook/ament_prefix_path.dsv'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/hook/ament_prefix_path.sh'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.312s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anirudh/lekiwi_ws/src/lekiwi_bringup' with build type 'ament_python'
+[0.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('lekiwi_bringup', 'ament_prefix_path')
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/hook/ament_prefix_path.ps1'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/hook/ament_prefix_path.dsv'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/hook/ament_prefix_path.sh'
+[0.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.602s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anirudh/lekiwi_ws/src/lekiwi_description'
+[0.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.880s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anirudh/lekiwi_ws/src/lekiwi_bringup'
+[0.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anirudh/lekiwi_ws/src/lekiwi_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anirudh/lekiwi_ws/build/lekiwi_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_description build --build-base /home/anirudh/lekiwi_ws/build/lekiwi_description/build install --record /home/anirudh/lekiwi_ws/build/lekiwi_description/install.log --single-version-externally-managed install_data
+[1.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anirudh/lekiwi_ws/src/lekiwi_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anirudh/lekiwi_ws/build/lekiwi_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/lekiwi_ws/install/lekiwi_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_bringup build --build-base /home/anirudh/lekiwi_ws/build/lekiwi_bringup/build install --record /home/anirudh/lekiwi_ws/build/lekiwi_bringup/install.log --single-version-externally-managed install_data
+[2.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anirudh/lekiwi_ws/src/lekiwi_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anirudh/lekiwi_ws/build/lekiwi_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_description build --build-base /home/anirudh/lekiwi_ws/build/lekiwi_description/build install --record /home/anirudh/lekiwi_ws/build/lekiwi_description/install.log --single-version-externally-managed install_data
+[2.271s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_description' for CMake module files
+[2.271s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_description' for CMake config files
+[2.272s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_description/lib'
+[2.272s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_description/bin'
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_description/lib/pkgconfig/lekiwi_description.pc'
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages'
+[2.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('lekiwi_description', 'pythonpath')
+[2.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/hook/pythonpath.ps1'
+[2.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/hook/pythonpath.dsv'
+[2.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/hook/pythonpath.sh'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_description/bin'
+[2.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lekiwi_description)
+[2.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/package.ps1'
+[2.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/package.dsv'
+[2.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/package.sh'
+[2.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/package.bash'
+[2.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/package.zsh'
+[2.278s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anirudh/lekiwi_ws/install/lekiwi_description/share/colcon-core/packages/lekiwi_description)
+[2.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anirudh/lekiwi_ws/src/lekiwi_moveit_pkg' with build type 'ament_cmake'
+[2.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anirudh/lekiwi_ws/src/lekiwi_moveit_pkg'
+[2.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.287s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_bringup' for CMake module files
+[2.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anirudh/lekiwi_ws/src/lekiwi_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anirudh/lekiwi_ws/build/lekiwi_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/lekiwi_ws/install/lekiwi_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_bringup build --build-base /home/anirudh/lekiwi_ws/build/lekiwi_bringup/build install --record /home/anirudh/lekiwi_ws/build/lekiwi_bringup/install.log --single-version-externally-managed install_data
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_bringup' for CMake config files
+[2.289s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/lib'
+[2.289s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/bin'
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/lib/pkgconfig/lekiwi_bringup.pc'
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/lib/python3.12/site-packages'
+[2.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('lekiwi_bringup', 'pythonpath')
+[2.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/hook/pythonpath.ps1'
+[2.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/hook/pythonpath.dsv'
+[2.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/hook/pythonpath.sh'
+[2.292s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/bin'
+[2.292s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lekiwi_bringup)
+[2.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/package.ps1'
+[2.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/package.dsv'
+[2.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/package.sh'
+[2.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/package.bash'
+[2.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/lekiwi_bringup/package.zsh'
+[2.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anirudh/lekiwi_ws/install/lekiwi_bringup/share/colcon-core/packages/lekiwi_bringup)
+[2.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg': AMENT_PREFIX_PATH=/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/openmanipulator_x_moveit_config:/home/anirudh/omx_ws/install/open_manipulator:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_playground:/home/anirudh/omx_ws/install/open_manipulator_moveit_config:/home/anirudh/omx_ws/install/open_manipulator_gui:/home/anirudh/omx_ws/install/open_manipulator_bringup:/home/anirudh/omx_ws/install/open_manipulator_description:/home/anirudh/omx_ws/install/open_manipulator_collision:/home/anirudh/omx_ws/install/om_spring_actuator_controller:/home/anirudh/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/anirudh/omx_ws/install/om_gravity_compensation_controller:/home/anirudh/robotics/cpp/install/omx_moveit_cpp_demo:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg -- -j20 -l20
+[2.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg' returned '0': AMENT_PREFIX_PATH=/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/openmanipulator_x_moveit_config:/home/anirudh/omx_ws/install/open_manipulator:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_playground:/home/anirudh/omx_ws/install/open_manipulator_moveit_config:/home/anirudh/omx_ws/install/open_manipulator_gui:/home/anirudh/omx_ws/install/open_manipulator_bringup:/home/anirudh/omx_ws/install/open_manipulator_description:/home/anirudh/omx_ws/install/open_manipulator_collision:/home/anirudh/omx_ws/install/om_spring_actuator_controller:/home/anirudh/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/anirudh/omx_ws/install/om_gravity_compensation_controller:/home/anirudh/robotics/cpp/install/omx_moveit_cpp_demo:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg -- -j20 -l20
+[2.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg': AMENT_PREFIX_PATH=/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/openmanipulator_x_moveit_config:/home/anirudh/omx_ws/install/open_manipulator:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_playground:/home/anirudh/omx_ws/install/open_manipulator_moveit_config:/home/anirudh/omx_ws/install/open_manipulator_gui:/home/anirudh/omx_ws/install/open_manipulator_bringup:/home/anirudh/omx_ws/install/open_manipulator_description:/home/anirudh/omx_ws/install/open_manipulator_collision:/home/anirudh/omx_ws/install/om_spring_actuator_controller:/home/anirudh/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/anirudh/omx_ws/install/om_gravity_compensation_controller:/home/anirudh/robotics/cpp/install/omx_moveit_cpp_demo:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg
+[2.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lekiwi_moveit_pkg)
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg' for CMake module files
+[2.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg' returned '0': AMENT_PREFIX_PATH=/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/openmanipulator_x_moveit_config:/home/anirudh/omx_ws/install/open_manipulator:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_playground:/home/anirudh/omx_ws/install/open_manipulator_moveit_config:/home/anirudh/omx_ws/install/open_manipulator_gui:/home/anirudh/omx_ws/install/open_manipulator_bringup:/home/anirudh/omx_ws/install/open_manipulator_description:/home/anirudh/omx_ws/install/open_manipulator_collision:/home/anirudh/omx_ws/install/om_spring_actuator_controller:/home/anirudh/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/anirudh/omx_ws/install/om_gravity_compensation_controller:/home/anirudh/robotics/cpp/install/omx_moveit_cpp_demo:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anirudh/lekiwi_ws/install/lekiwi_description:/home/anirudh/lekiwi_ws/install/lekiwi_bringup:/home/anirudh/omx_ws/install/open_manipulator_teleop:/home/anirudh/omx_ws/install/open_manipulator_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anirudh/lekiwi_ws/build/lekiwi_moveit_pkg
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg' for CMake config files
+[2.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('lekiwi_moveit_pkg', 'cmake_prefix_path')
+[2.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/hook/cmake_prefix_path.ps1'
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/hook/cmake_prefix_path.dsv'
+[2.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/hook/cmake_prefix_path.sh'
+[2.398s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/bin'
+[2.398s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/lib/pkgconfig/lekiwi_moveit_pkg.pc'
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/lib/python3.12/site-packages'
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/bin'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.ps1'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.dsv'
+[2.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.sh'
+[2.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.bash'
+[2.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.zsh'
+[2.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/colcon-core/packages/lekiwi_moveit_pkg)
+[2.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lekiwi_moveit_pkg)
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg' for CMake module files
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg' for CMake config files
+[2.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('lekiwi_moveit_pkg', 'cmake_prefix_path')
+[2.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/hook/cmake_prefix_path.ps1'
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/hook/cmake_prefix_path.dsv'
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/hook/cmake_prefix_path.sh'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/bin'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/lib/pkgconfig/lekiwi_moveit_pkg.pc'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/lib/python3.12/site-packages'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/bin'
+[2.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.ps1'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.dsv'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.sh'
+[2.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.bash'
+[2.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/lekiwi_moveit_pkg/package.zsh'
+[2.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anirudh/lekiwi_ws/install/lekiwi_moveit_pkg/share/colcon-core/packages/lekiwi_moveit_pkg)
+[2.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.411s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.418s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.434s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.435s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anirudh/lekiwi_ws/install/local_setup.ps1'
+[2.437s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anirudh/lekiwi_ws/install/_local_setup_util_ps1.py'
+[2.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anirudh/lekiwi_ws/install/setup.ps1'
+[2.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anirudh/lekiwi_ws/install/local_setup.sh'
+[2.440s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anirudh/lekiwi_ws/install/_local_setup_util_sh.py'
+[2.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anirudh/lekiwi_ws/install/setup.sh'
+[2.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anirudh/lekiwi_ws/install/local_setup.bash'
+[2.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anirudh/lekiwi_ws/install/setup.bash'
+[2.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anirudh/lekiwi_ws/install/local_setup.zsh'
+[2.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anirudh/lekiwi_ws/install/setup.zsh'

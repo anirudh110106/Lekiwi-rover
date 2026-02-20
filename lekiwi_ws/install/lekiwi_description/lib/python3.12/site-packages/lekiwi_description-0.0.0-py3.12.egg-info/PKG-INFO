@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: lekiwi-description
+Version: 0.0.0
+Summary: LeKiwi robot description package
+Maintainer: anirudh
+Maintainer-email: anirudh110106@gmail.com
+License: MIT
+Provides-Extra: test

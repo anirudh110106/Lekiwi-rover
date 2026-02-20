@@ -1,0 +1,21 @@
+[1.272s] Invoking command in '/home/anirudh/lekiwi_ws/src/lekiwi_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anirudh/lekiwi_ws/build/lekiwi_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_description build --build-base /home/anirudh/lekiwi_ws/build/lekiwi_description/build install --record /home/anirudh/lekiwi_ws/build/lekiwi_description/install.log --single-version-externally-managed install_data
+[1.639s] running egg_info
+[1.664s] writing ../../build/lekiwi_description/lekiwi_description.egg-info/PKG-INFO
+[1.664s] writing dependency_links to ../../build/lekiwi_description/lekiwi_description.egg-info/dependency_links.txt
+[1.665s] writing requirements to ../../build/lekiwi_description/lekiwi_description.egg-info/requires.txt
+[1.665s] writing top-level names to ../../build/lekiwi_description/lekiwi_description.egg-info/top_level.txt
+[1.717s] reading manifest file '../../build/lekiwi_description/lekiwi_description.egg-info/SOURCES.txt'
+[1.719s] writing manifest file '../../build/lekiwi_description/lekiwi_description.egg-info/SOURCES.txt'
+[1.719s] running build
+[1.719s] running build_py
+[1.719s] running install
+[1.728s] running install_lib
+[1.756s] running install_data
+[1.756s] copying URDF/lekiwi.urdf.xacro -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/URDF
+[1.759s] copying ros2_control/lekiwi_ros2_control.xacro -> /home/anirudh/lekiwi_ws/install/lekiwi_description/share/lekiwi_description/ros2_control
+[1.759s] running install_egg_info
+[1.785s] removing '/home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages/lekiwi_description-0.0.0-py3.12.egg-info' (and everything under it)
+[1.786s] Copying ../../build/lekiwi_description/lekiwi_description.egg-info to /home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages/lekiwi_description-0.0.0-py3.12.egg-info
+[1.786s] running install_scripts
+[1.950s] writing list of installed files to '/home/anirudh/lekiwi_ws/build/lekiwi_description/install.log'
+[1.980s] Invoked command in '/home/anirudh/lekiwi_ws/src/lekiwi_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anirudh/lekiwi_ws/build/lekiwi_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/lekiwi_ws/install/lekiwi_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_description build --build-base /home/anirudh/lekiwi_ws/build/lekiwi_description/build install --record /home/anirudh/lekiwi_ws/build/lekiwi_description/install.log --single-version-externally-managed install_data
