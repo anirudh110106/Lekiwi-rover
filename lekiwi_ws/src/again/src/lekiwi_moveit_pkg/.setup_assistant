@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: lekiwi_description
+    relative_path: URDF/LeKiwi.urdf
+  srdf:
+    relative_path: config/LeKiwi.srdf
+  package_settings:
+    author_name: Anirudh
+    author_email: anirudh110106@gmail.com
+    generated_timestamp: 1771389379
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
