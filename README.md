@@ -8,7 +8,7 @@ mobile-manipulator/
 │   ├── launch/
 │   │   ├── launch.py
 │   │   ├── sim.launch.py 
-│   │   ├── (few controler test files)
+│   │   ├── (few controller test files)
 │   ├── lekiwi_bringup/
 │   │   └── motor_odom.py 
 
