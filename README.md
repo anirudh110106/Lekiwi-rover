@@ -1,3 +1,30 @@
+### Lekiwi Rover
+
+#ROS 2 System Architecture & Control
+The ROS2 ecosystem for the Lekiwi rover is built by utilizing the open-source STL's and  URDF files. To bridge the physical hardware with the software stack, the system integrates ST3215 motor packages managed by a custom ros2_control interface. This maps individual motors to specific joints and establishes dedicated position and velocity control modes. The rover's movement is orchestrated through three distinct controllers explicitly designed to manage the drive wheels, the robotic arm, and the end-effector gripper.Arm motion planning fully supported through a dedicated MoveIt package.
+
+
+#Setup 
+
+Create the workspace :-
+```
+cd ~
+mkdir Rover
+mkdir Rover/src
+cd ~Rover/src
+```
+Clone the repository :-
+```
+git clone https://github.com/KMTI-ROBOPARADIGM/mobile-manipulator/tree/main
+```
+Build the Package :-
+```
+cd ~Rover
+colcon build
+source install/setup.bash
+```
+
+
 ```
 mobile-manipulator/
 ├── lekiwi_bringup/
