@@ -1,4 +1,4 @@
-# LeKiwi Rover
+# Ros2 Integreation for LeKiwi Rover
 
 [![ROS2](https://img.shields.io/badge/ROS2-Jazzy-blue.svg)](https://docs.ros.org/en/jazzy/index.html)
 [![ros2_control](https://img.shields.io/badge/ros2__control-hardware%20interface-orange.svg)](https://control.ros.org/)
@@ -12,7 +12,7 @@ A ROS2-based control stack for the **LeKiwi** three-wheel omnidirectional rover,
 
 ---
 
-## Overview
+## 🧭Overview
 
 LeKiwi combines:
 - A **holonomic three-wheel drive base** for omnidirectional movement
@@ -22,7 +22,7 @@ LeKiwi combines:
 
 ---
 
-## Package Structure
+## 📁Package Structure
 
 ```
 
@@ -102,7 +102,7 @@ Custom C++ `ros2_control` hardware interface for ST3215 serial-bus servos.
 
 ---
 
-## Prerequisites
+## 🛠️Prerequisites
 
 - Ubuntu 24.04 + ROS2 Jazzy
 - `ros2_control`, `ros2_controllers`
@@ -120,7 +120,7 @@ sudo apt install -y \
 
 ---
 
-## Build
+## 🔧Build
 
 ```bash
 cd ~/your_ws/src
@@ -133,7 +133,7 @@ source install/setup.bash
 
 ---
 
-## Usage
+## ▶️Usage
 
 ### Bring up the rover
 
@@ -150,7 +150,7 @@ ros2 launch lekiwi_bringup sim.launch.py
 <img width="12447" height="3590" alt="image" src="https://github.com/user-attachments/assets/33f95743-7403-45ca-b0b4-fb5950859c3f" />
 
 
-### Hardware tests
+### 🛠️Hardware tests
 
 ```bash
 ros2 launch lekiwi_bringup test_wheels.py
@@ -171,14 +171,14 @@ ros2 launch lekiwi_moveit_config servo.launch.py
 
 ---
 
-## Navigation
+## 🗺️Navigation
 
 Autonomous navigation and SLAM for this rover are maintained in a separate repository:
 👉 **[anirudh110106/Nav2](https://github.com/anirudh110106/Nav2)**
 
 ---
 
-## License
+## 📄License
 This project is intended for educational and robotics research purposes.
 
 
