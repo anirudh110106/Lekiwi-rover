@@ -1,0 +1,9 @@
+# Python dependencies for LeKiwi Rover
+# Install with: pip install -r requirements.txt
+# Note: ROS2 core, ros2_control, and MoveIt2 are NOT pip packages — see dependencies.md
+
+numpy>=1.24
+transforms3d>=0.4.1
+pyyaml>=6.0
+pyserial>=3.5
+setuptools>=68.0
